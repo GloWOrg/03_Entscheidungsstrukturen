@@ -4,7 +4,7 @@
 
 // Deklaration + Assignment//
 
-const ageJohn = 28;
+const ageJohn = 30;
 const ageMark = 30;
 
 //Deklaration
@@ -45,15 +45,41 @@ if(ageJohn > ageMark) //direkter Vergleich (spart Code)//
 
 if (isJohnOlder) {
     //True Codeblock
-    console.log("John ist älter")
+    console.log("John ist älter");
     
 } else {
     //False Codeblock
-    console.log("John ist jünger")
+    console.log("John ist jünger");
     
 }
 
 console.log("______________IF - ELSE_______________");
+
+
+// ----------IF - ELSE - IF -------------//
+// mit alternativen Fällen (älter, jünger, gleich alt)
+
+if (isJohnOlder) {
+    //True Codeblock
+    console.log("John ist älter");
+    
+}
+else if(isJohnEqual)  
+/*wenn IF zweig nicht TRUE ist wird
+ noch eine (oder n Bedingungen) geprüft bevor ELSE greift */
+{
+        console.log("John ist gleich alt");
+}
+
+else {
+    //False Codeblock
+    console.log("John ist jünger");
+    
+}
+
+
+
+
 
 
 

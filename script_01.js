@@ -4,7 +4,7 @@
 
 // Deklaration + Assignment//
 
-const ageJohn = 31;
+const ageJohn = 28;
 const ageMark = 30;
 
 //Deklaration
@@ -34,7 +34,29 @@ console.log("_______________"); //als Trennzeichen//
 if(ageJohn > ageMark) //direkter Vergleich (spart Code)//
 { 
     console.log("John ist älter.")
-
+    console.log("____________IF___________")
 }
+
+
+// IF Else          //
+
+//mit Alternative
+//entweder Ja oder Nein
+
+if (isJohnOlder) {
+    //True Codeblock
+    console.log("John ist älter")
+    
+} else {
+    //False Codeblock
+    console.log("John ist jünger")
+    
+}
+
+console.log("______________IF - ELSE_______________");
+
+
+
+
 
 

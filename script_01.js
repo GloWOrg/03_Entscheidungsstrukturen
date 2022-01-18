@@ -22,8 +22,19 @@ console.log("ageJohn : " + ageJohn);
 console.log("ageMark : " + ageMark);
 console.log("isJohnOlder : " + isJohnOlder);
 console.log("isjohnEqual : " + isJohnEqual);
+console.log("_______________"); //als Trennzeichen//
 
+//      IF         //
+//TINA There is no alternative//
+//entweder Ja oder nix... alternativlos//
 
+// if(true)
+// if(false) //bei TRUE wird Codeblock ausgeführt, bei False übersprungen
+// if(isJohnOlder); //Variable wird als boolescher Wert auf den Codeblock angewendet//
+if(ageJohn > ageMark) //direkter Vergleich (spart Code)//
+{ 
+    console.log("John ist älter.")
 
+}
 
 
